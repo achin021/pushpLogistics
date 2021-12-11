@@ -52,6 +52,11 @@
     width: 100px;
 }
 
+.heading h1{
+    text-align: left;
+    padding: 0 50px;
+}
+
 @media only screen and (max-width: 1360px){
     .logo1{
         display: none;
@@ -102,5 +107,8 @@
     }
     .whole p {
         font-size: 4vw;
+    }
+    .heading h1{
+        padding: 0 6vw;
     }
 }
