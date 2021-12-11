@@ -1,0 +1,64 @@
+.menuItem {
+    display: block;
+    margin: 2rem 4rem;
+    font-size: 1.6rem;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.menuItem:hover {
+text-decoration: underline;
+}
+
+.material-icons {
+    font-size: 35px;
+}
+
+.hamburger {
+display: none;
+background: transparent;
+border: none;
+position: fixed;
+z-index: 100;
+top: 13px;
+padding: 10px;
+right: 20px;
+cursor: pointer;
+}
+
+.closeIcon {
+display: none;
+font-size: 35px;
+}
+
+.menu {
+position: fixed;
+transform: translateX(100%);
+transition: transform 0.2s;
+top: 0;
+right: 0;
+bottom: 0;
+z-index: 99;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background: white;
+color: black;
+list-style: none;
+padding-top: 7rem;
+}
+
+.showMenu {
+transform: translateY(0%);
+}
+
+@media only screen and (max-width: 850px) {
+    .hamburger {
+        right:20px;
+    } 
+}
+
+@media only screen and (max-width: 1270px) {
+    .hamburger{
+      display: block;
+    }
+}   

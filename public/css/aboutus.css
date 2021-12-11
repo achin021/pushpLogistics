@@ -1,0 +1,67 @@
+.aboutUs{
+    display: flex;
+    padding:30px 90px;
+    padding-right: 0;
+    gap: 100px;
+    align-items: center;
+}
+
+.aboutUs .content{
+    width: 45%;
+}
+
+.aboutUs .img{
+    flex: 1;
+}
+
+.content h1{
+    color: #062D42;
+    margin-bottom: 20px;
+}
+
+.img img{
+    width: 100%;
+    margin-top: 90px;
+}
+
+.icons{
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: left;
+    align-items: center;
+}
+
+.icons img{
+    height: 25px;
+}
+
+.services_content{
+    padding: 0 90px;
+}
+
+@media only screen and (max-width: 1300px){
+    .aboutUs{
+        flex-direction: column;
+        padding:40px 90px ;
+        padding-top: 40px;
+        gap: 0;
+    }
+    .aboutUs .content{
+        width: 100%;
+    }
+    .img img{
+        margin-top: 55px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px){
+    .aboutUs{
+        padding: 40px 30px;
+    }
+    .services_content{
+        padding: 0 30px;
+    }
+}
+

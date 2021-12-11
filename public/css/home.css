@@ -1,0 +1,139 @@
+.home{
+    background-image: url('/images/home/pexels-photoscom-93398\ 3.jpg') ;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+.homeContent{
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    color: white;
+    margin-left: 90px;
+    width: 900px;
+  
+}
+
+.firstLine{
+    font-weight: 600; 
+    margin-bottom: -25px;
+}
+
+.secondLine{
+    font-weight: 900; 
+    font-size: 85px;
+}
+
+.thirdLine{
+    width: 35%;
+    border: 1px solid white;
+    margin-bottom: 25px;
+}
+
+.fourthLine{
+    font-size: 20px;
+    font-weight: 500;
+}
+.read_more{
+    background-color: #0D5C86;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+@media only screen and (max-width: 1100px){
+    .homeContent{
+        width: 800px;
+    }
+    .home{
+        background-image: url('/images/home/pexels-photoscom-93398\ 1.jpg') ;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .homeContent{
+        margin-left: 30px;
+        width: fit-content;
+    }
+    .firstLine{
+        font-size: 25px;
+        margin-bottom: -15px;
+    }
+    .secondLine{
+        font-size: 70px;
+    }
+    .thirdLine{
+        width: 25%;
+    }
+    .fourthLine{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .home{
+        background-image: url('/images/home/pexels-photoscom-93398\ 4.jpg') ;
+    }
+    .homeContent{
+        margin-left: 30px;
+        width: fit-content;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .firstLine{
+
+        margin: 3px;
+    }
+    .secondLine{
+        font-size: 15vw;
+        line-height: 99px;
+    }
+    .thirdLine{
+        width: 25%;
+        margin:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .fourthLine{
+        font-size: 20px;
+        padding: 0 20px;
+
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .homeContent{
+        margin-left: 30px;
+        width: fit-content;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .firstLine{
+
+        margin: 3px;
+    }
+    .secondLine{
+        font-size: 15vw;
+        line-height: 9vh;
+    }
+    .thirdLine{
+        width: 25%;
+        margin:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .fourthLine{
+        font-size: 5vw;
+
+    }
+}

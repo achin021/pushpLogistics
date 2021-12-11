@@ -1,0 +1,33 @@
+.clients{
+    background-color: #F3F3F3;
+    padding:25px 0px ;
+}
+
+
+.slider {
+    width: 100%;
+    top: calc(50% - 97.25px);
+    overflow: hidden;
+}
+.slider .slider-row {
+    width: 2956px;
+    height: 194.5px;
+    background-image: url(/images/logos/logos.png);
+    background-size: 2247.48px 194.5px;
+    animation: slide 20s linear infinite;
+}
+@keyframes slide {
+    from {
+        background-position-x: 0;
+   }
+    to {
+        background-position-x: -2247.48px;
+   }
+}
+
+.heading{
+    text-align: center;
+    margin: 30px 0px;
+    color: #062D42;
+    margin-bottom:10px;
+}

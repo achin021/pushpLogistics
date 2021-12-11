@@ -1,0 +1,1 @@
+setInterval(function () {document.getElementById("next").click();}, 2500);

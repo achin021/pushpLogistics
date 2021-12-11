@@ -1,0 +1,91 @@
+#inf h1{
+    font-size: 40px;
+    color: white;
+    border-bottom: #d1ba88;
+    margin-bottom: 50px;
+}
+
+
+
+.contact_container{
+    display: flex;
+    padding:50px 70px;
+    gap: 40px;
+    background-color: #002D56;
+    margin-top: 40px;
+}
+
+.half1{
+    flex:2;
+    word-break: break-word;
+}
+
+.half2{
+    flex:1;
+}
+
+#icon{
+    display: flex;
+    align-items: center;
+}
+
+.data{
+    color: white;
+    margin-bottom: 22px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    font-size: 17px;
+}
+
+.data1{
+    color: white;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    align-items: center;
+    font-size: 17px;
+}
+
+#map{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+/* Set the size of the div element that contains the map */
+
+iframe{
+    width: 80%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    .contact_container{
+        flex-direction: column;
+        padding: 23px 40px;
+    }
+    #map{
+        justify-content: center;
+        padding: 0;
+    }
+    iframe{
+        width: 100%;
+        height: 400px;
+    }
+    .data{
+        color: white;
+        margin-bottom: 12px;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        align-items: center;
+        font-size: 15px;
+    }
+    #inf h1{
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+    
+}
