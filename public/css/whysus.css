@@ -1,6 +1,13 @@
 .whyus{
-    background-color: #024683; 
+    
     padding: 10px 0;
+    background-color: #024683;
+    background-color: #024683;
+    opacity: 1;
+    background-image:  linear-gradient(135deg, #004e92 25%, transparent 25%), linear-gradient(225deg, #004e92 25%, transparent 25%), linear-gradient(45deg, #004e92 25%, transparent 25%), linear-gradient(315deg, #004e92 25%, #024683 25%);
+    background-position:  10px 0, 10px 0, 0 0, 0 0;
+    background-size: 20px 20px;
+    background-repeat: repeat;
     
 }
 
@@ -54,7 +61,7 @@
 
 .heading h1{
     text-align: left;
-    padding: 0 50px;
+    padding: 0 90px;
 }
 
 @media only screen and (max-width: 1360px){
@@ -72,6 +79,12 @@
     }
 }
 
+@media only screen and (max-width: 1300px){
+    .whyus h1{
+        padding-left:90px ;
+    }
+}
+
 @media only screen and (max-width: 1030px){
     .whycontainer{
         padding: 0 50px;
@@ -79,6 +92,11 @@
     }
 }
 
+@media only screen and (max-width: 1000px){
+    .whyus h1{
+        padding-left:30px ;
+    }
+}
 
 @media only screen and (max-width: 755px){
     .whycontainer{
